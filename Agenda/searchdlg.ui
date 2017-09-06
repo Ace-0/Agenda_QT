@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchDlg</class>
+ <widget class="QDialog" name="SearchDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>483</width>
+    <height>197</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="searchBtn">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>150</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>search</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelBtn">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>150</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cancel</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchEdt">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="starttimeEdt">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="endtimeEdt">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>100</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="startLab">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>start time:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="endLab">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>end time:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="searchLab">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Text:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

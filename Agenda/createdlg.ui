@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreateDlg</class>
+ <widget class="QDialog" name="CreateDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>473</width>
+    <height>281</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="addBtn">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>150</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>add as a participator</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="finishBtn">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>finish</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelBtn">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>220</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cancel</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>80</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="duplicatesEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="listLab">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>431</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>current list of participators:</string>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="startTimeEdit">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>110</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="endTimeEdit">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>160</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirmBtn">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>confirm</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="titleEdt">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>70</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Input title here</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="titleLab">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>title:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="endLab">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>end:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="startLab">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>start:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteBtn">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>170</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>delete</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

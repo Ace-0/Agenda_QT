@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>900</width>
+      <height>531</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>20</y>
+      <width>231</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QPushButton" name="listMeetingsBtn">
+     <property name="text">
+      <string>all meetings</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="listSponMeetingBtn">
+     <property name="text">
+      <string>sponsor meetings</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="listParMeetingsBtn">
+     <property name="text">
+      <string>participate meetings</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="listUsersBtn">
+     <property name="text">
+      <string>all users</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QSplitter" name="splitter_2">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>220</y>
+      <width>231</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QPushButton" name="searchUserBtn">
+     <property name="text">
+      <string>search user</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="titleMeetingBtn">
+     <property name="text">
+      <string>query meeting by title</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="timeMeetingBtn">
+     <property name="text">
+      <string>query meeting by time</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="createBtn">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>380</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>create a meeting</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logoutBtn">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>510</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>log out</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteBtn">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>430</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>delete a meeting</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
